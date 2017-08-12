@@ -21,6 +21,8 @@
  *
  * Anders Evenrud <andersevenrud@gmail.com>
  */
+const PORT = process.env.PORT || 8080;
+
 const express = require('express');
 const path = require('path');
 const fs = require('fs-extra');
@@ -56,4 +58,4 @@ app.post('/project/:id', (req, res, next) => {
   });
 });
 
-app.listen(8080);
+app.listen(PORT);

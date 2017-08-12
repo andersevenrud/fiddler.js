@@ -3,6 +3,11 @@
   "version": "0.0.1",
   "author": "Anders Evenrud <andersevenrud@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "build": "node node_modules/webpack/bin/webpack.js",
+    "watch": "node node_modules/webpack/bin/webpack.js --watch"
+  },
   "dependencies": {
     "bluebird": "^3.5.0",
     "body-parser": "^1.17.2",
