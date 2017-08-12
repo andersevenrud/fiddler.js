@@ -1,0 +1,6 @@
+{
+  "id": "example",
+  "css": "body {}",
+  "javascript": "(function() {})()",
+  "html": "<div>Hello World</div>"
+}
