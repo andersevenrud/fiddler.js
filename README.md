@@ -6,6 +6,8 @@ This was a weekend project, so it's not 100% fleshed out, but should work just f
 
 ![ScreenShot](https://raw.githubusercontent.com/andersevenrud/fiddler.js/master/screenshot.png)
 
+Demo: https://fiddlerjs.herokuapp.com/ (note: can be slow)
+
 ## Installing
 
 ```
