@@ -5,8 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "node server.js",
-    "build": "node node_modules/webpack/bin/webpack.js",
-    "watch": "node node_modules/webpack/bin/webpack.js --watch"
+    "heroku-prebuild": "npm install",
+    "heroku-postbuild": "node node_modules/.bin/webpack"
   },
   "dependencies": {
     "bluebird": "^3.5.0",
